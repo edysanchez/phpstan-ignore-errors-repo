@@ -12,4 +12,3 @@ parameters:
         - '#^Call to an undefined method Kata\\Adder\:\:suma\(\)\.$#'
 includes:
     - vendor/phpstan/phpstan/conf/bleedingEdge.neon
-    - phpstan-baseline.neon
