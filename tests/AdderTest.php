@@ -21,6 +21,21 @@ class AdderTest extends TestCase
         );
     }
 
+    public function testFoo(): void
+    {
+        $this->assertEquals(
+            89,
+            (new Adder())->suma(44, 22)
+        );
+    }
+
+    public function testFooTwo(): void
+    {
+        $this->assertEquals(
+            89,
+            (new Adder())->suma(44, 22)
+        );
+    }
     public function validSumsProvider()
     {
         return [

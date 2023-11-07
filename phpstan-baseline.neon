@@ -1,0 +1,21 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method Kata\\\\Adder\\:\\:suma\\(\\)\\.$#"
+			count: 1
+			path: tests/AdderTest.php
+
+		-
+			message: "#^Method Kata\\\\Tests\\\\AdderTest\\:\\:validSums\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/AdderTest.php
+
+		-
+			message: "#^Method Kata\\\\Tests\\\\AdderTest\\:\\:validSums\\(\\) has parameter \\$expectedResult with no type specified\\.$#"
+			count: 1
+			path: tests/AdderTest.php
+
+		-
+			message: "#^Method Kata\\\\Tests\\\\AdderTest\\:\\:validSumsProvider\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/AdderTest.php

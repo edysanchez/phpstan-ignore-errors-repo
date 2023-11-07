@@ -1,0 +1,15 @@
+parameters:
+    inferPrivatePropertyTypeFromConstructor: true
+    reportUnmatchedIgnoredErrors: false
+    paths:
+        - src
+        - tests
+    level: 9
+    parallel:
+        processTimeout: 300.0
+    checkMissingIterableValueType: false
+    ignoreErrors:
+        - '#^Call to an undefined method Kata\\Adder\:\:suma\(\)\.$#'
+includes:
+    - vendor/phpstan/phpstan/conf/bleedingEdge.neon
+    - phpstan-baseline.neon
